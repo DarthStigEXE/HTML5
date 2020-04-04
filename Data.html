@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M52</title>
+</head>
+<body>
+    
+    <ul>
+        <li data-id="1" data-email="joseaugusto.gu@gmail.com">José</li>
+        <li data-id="2" data-email="jose.izabel@estudante.ifb.edu.br">Augusto</li>
+        <li data-id="3" data-email="augusto.chaves@sempreceub.com">José Augusto</li>
+    </ul>
+
+    <script>
+    document.querySelectorAll('li').forEach(liEl => {
+        console.log(liEl.dataset.email);
+    });
+    </script>
+
+</body>
+</html>
